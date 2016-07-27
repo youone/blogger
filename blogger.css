@@ -1,0 +1,17 @@
+.postcontent {
+	padding: 5px 5px 5px 5px;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: LightGray;
+}
+
+.postcontent h1{
+	font-size : 16px
+}
+	
+.postcontent h2{
+	font-size : 12px
+}
