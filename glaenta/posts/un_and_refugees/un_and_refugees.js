@@ -8,7 +8,7 @@ require(['bloglib'], function(bloglib){
 	var content = $('#' + postName).parent();
 	var textContent = $('<div>').html('Loading Text ...').appendTo(content);
 
-	$.when(bloglib.markdownFetcher(postUrl + 'un_and_refugees.txt')).done(function (convertedText) {
+	$.when(bloglib.markdownFetcher(postUrl + 'un_and_refugees.md')).done(function (convertedText) {
 		textContent.html(convertedText);
 	});
 

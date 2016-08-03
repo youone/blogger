@@ -20,11 +20,4 @@ var require = {
 	}
 };
 
-window.onload = function() {
-
-	//$($('#intro_to_glaenta').parents()[4]).find('.date-header').find('span').html('Sticky Post');
-
-	console.log("site is initialised");
-
-}
 

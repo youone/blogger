@@ -1,9 +1,8 @@
 require.config({
         paths: {
-            waterfall: 'https://rawgit.com/youone/spectrograph/9414fb8ef38ccb9abff50b4d6066c55f3c1f43b0/web/js/widgets/waterfall-jquery-widget'
+            waterfall: "https://rawgit.com/youone/spectrograph/9414fb8ef38ccb9abff50b4d6066c55f3c1f43b0/web/js/widgets/waterfall-jquery-widget"
         }
  });
-
 
 require(['jqueryui'], function () {
     require(['jqueryui', 'waterfall', 'bloglib'], function (jqueryui, waterfall, bloglib) {
