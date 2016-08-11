@@ -9,7 +9,7 @@ define(['jquery'], function ($) {
   $.getJSON(
       "http://getcitydetails.geobytes.com/GetCityDetails?callback=?",
       function (data) {
-        console.log(data);
+        //console.log(data);
       }
   );
 
@@ -19,22 +19,23 @@ define(['jquery'], function ($) {
 
 });
 
-window.MathJax = {
-    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]},
-    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-    processEscapes: true
-};
-
-window.onload = function() {
-
-    //$($('#intro_to_glaenta').parents()[4]).find('.date-header').find('span').html('Sticky Post');
-    //require(['mathjax'], function(mathjax){
-    //    console.log('loading mathjax');
-    //});
-
-    console.log("site is initialised");
-
-}
+//window.MathJax = {
+//    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]},
+//    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+//    processEscapes: true
+//};
+//
+//window.onload = function() {
+//
+//    //$($('#intro_to_glaenta').parents()[4]).find('.date-header').find('span').html('Sticky Post');
+//    //require(['mathjax'], function(mathjax){
+//    //    console.log('loading mathjax');
+//    //});
+//
+//    console.log("site is initialised");
+//    //console.log(_WidgetManager._GetAllData().blog.isMobile);
+//
+//}
 
 //<!--script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'-->
 //<script src='https://dl.dropboxusercontent.com/u/29864737/web/blogger/javascript/require.config.js'/>

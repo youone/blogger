@@ -9,7 +9,7 @@ require(['jqueryui'], function () {
 
         var postPath = 'technicalities/posts/a_test_post/';
 
-        console.log($('script'));
+        //console.log($('script'));
 
         var content = $('#a_test_post').parent();
         var textContent = $('<div>').html('Loading Text ...').appendTo(content);

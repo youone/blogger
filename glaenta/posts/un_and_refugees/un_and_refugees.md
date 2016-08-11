@@ -20,5 +20,5 @@ The key-concepts:
 * large number of small-ish but closely connected and equally functioning locations where staff can easily move from one to the other depending on work-load
 * high level of standardization for efficiency, lower cost and fairness
 * extensive and efficient use of modern information technology to create networks in order to find permanent residency for everyone
-* efficient pairing of demand for, and supply of labor on a global scale."
+* efficient pairing of demand for, and supply of labor on a global scale.
 
